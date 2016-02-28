@@ -1,0 +1,8 @@
+@value primary, secondary from 'universal/styles/colors.css';
+@value maxWidth from 'universal/styles/layout.css';
+
+.error404 {
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 30.55%;
+}

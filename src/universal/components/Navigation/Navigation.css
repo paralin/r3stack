@@ -1,0 +1,33 @@
+@value primary, secondary from 'universal/styles/colors.css';
+
+.nav {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background: secondary !important;
+}
+
+.menuButtons {
+  display: flex;
+  align-items: center;
+  /*font-weight: 700;*/
+}
+
+.buttonBuffer {
+  padding: 5px;
+}
+.menuButton {
+  font-weight: 500 !important;
+  color: primary !important;
+}
+.brand {
+  color: primary;
+  text-decoration: none;
+  font-size: 1.75em; /* ~28px */
+}
+
+.spacer {
+  color: primary !important;
+}

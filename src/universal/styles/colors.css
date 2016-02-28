@@ -1,0 +1,10 @@
+@value primary: #61dafb;
+@value secondary: #104351;
+
+.brandColor {
+  color: primary;
+}
+
+.backgroundColor {
+  background-color: secondary;
+}
