@@ -13,7 +13,7 @@ systems({
     workdir: "/azk/#{manifest.dir}",
     shell: "/bin/bash",
     command: ["npm", "run", "start"],
-    wait: {"retry": 2, "timeout": 50000},
+    wait: {"retry": 2, "timeout": 100000},
     mounts: {
       '/azk/#{manifest.dir}': sync("."),
       '/azk/#{manifest.dir}/node_modules': persistent("./node_modules"),

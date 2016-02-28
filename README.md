@@ -2,7 +2,7 @@
 ##### Whether you want to learn or quickly start your project - R3stack allows you to dive right in! 
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
 
-
+<img src="https://raw.githubusercontent.com/r3stack/r3stack/master/r3stack.png" width="600">
 
 | Problem           | Solution                                                                 | Result                                                              |
 |-------------------|--------------------------------------------------------------------------|---------------------------------------------------------------------|
