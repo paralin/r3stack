@@ -15,7 +15,6 @@
     "build":        "rimraf build && concurrently \"npm run build:client\" \"npm run build:server\"",
     "restart":      "npm run build && npm run prod",
     "restart:dev":  "npm run build && npm run dev",
-    "prestart":     "npm run build",
     "start":        "npm run prod",
     "start:dev":    "npm run dev",
     "build:client": "NODE_ENV=production webpack -p --config ./webpack/prod.babel.js",
