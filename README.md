@@ -151,6 +151,9 @@ When the note is dropped to its new location, the change is persisted.
  - Use the gitter for any questions
 
 ##Changelog
+- 0.11
+ - Updated all dependencies
+
 - 0.10
  - Added Azk.io orchestrate development environments
 

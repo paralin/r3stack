@@ -13,7 +13,7 @@ export default class Kanban extends Component {
     const {userId, laneActions: {addLane}} = this.props;
     return (
       <div className={styles.kanban} id="kanban">
-        <h1 className={styles.title}>Meaty Kanban</h1>
+        <h1 className={styles.title}>Get that shit done!</h1>
         <button className={styles.addLane}
                 onClick={() => addLane({id: uuid.v4(), userId, isPrivate: false, title: 'New lane' })}>
           Add lane
